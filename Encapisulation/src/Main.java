@@ -6,19 +6,21 @@ import Example3.exampleTree;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
 
-    static void Ususarios(String name){
+    static void Ususarios(String name, int Age){
         example NewUsuarios = new example();
         NewUsuarios.setUSer(name);
+        NewUsuarios.setAge(Age);
 
         System.out.println("Seja bem vindo " + NewUsuarios.getUser());
+        System.out.println("Sua idade é: " + NewUsuarios.getAge());
     }
 
 //   nao esta retornando os valores
-    static void UserAge(int idade){
+    static void UserAge(){
         exampleTwo NewAge = new exampleTwo();
-        NewAge.setIdade(idade);
+//      NewAge.setIdade(idade);
 
-        System.out.println("Sua idade é: " + NewAge.getIdade());
+        System.out.println(NewAge.getIdade());
     }
 
     static void UserNotas(){
@@ -27,8 +29,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-       Ususarios("Paulo");
-       UserAge(29);
+       Ususarios("Paulo", 29);
+       UserAge();
        UserNotas();
     }
 }
