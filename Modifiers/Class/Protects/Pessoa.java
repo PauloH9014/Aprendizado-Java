@@ -27,7 +27,7 @@ public class Pessoa extends Person {
 
   // Aqui eu estou criando uma subclasse Pessoa que herda de Person
   public Pessoa(String name, int idade) {
-        super(name, idade);
+      super(name, idade);
     }
 
 

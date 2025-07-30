@@ -4,7 +4,7 @@ import Construtor.ParametrosOne.construtorParametrosOne;
 import Construtor.ParametrosThree.construtorName;
 import Construtor.ParametrosTwo.MediaNotas;
 
-public class construtorParametrosMain {
+public class construtorParametrosMain{
 
     static void Message(int i, String name) {
 
