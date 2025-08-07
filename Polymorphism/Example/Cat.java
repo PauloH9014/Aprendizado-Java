@@ -16,7 +16,7 @@ public  class Cat extends animal{
         this.age = NewAge;
     }
 
-    public void soundAnimal(){
-        System.out.println("A idade do animal " + age);
-    }
+//    public void soundAnimal(){
+//        System.out.println("A idade do animal " + age);
+//    }
 }

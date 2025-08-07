@@ -2,6 +2,8 @@ package Polymorphism;
 
 import Polymorphism.Example.Cat;
 import Polymorphism.Example.Dog;
+import Polymorphism.ExampleOne.Homem;
+import Polymorphism.ExampleOne.Pessoa;
 
 public class Main {
 
@@ -19,8 +21,17 @@ public class Main {
         System.out.println("A idade do seu gato é: " + NewCat.getAge());
     }
 
+    static void Man(){
+        Homem NewPessoa = new Homem("Alta", "Verde",  "Loiro");
+
+        System.out.println("Seu cabelo é da cor : " + NewPessoa.getHair());
+        System.out.println("Seus olhos tem a cor :  " + NewPessoa.getEyes());
+        System.out.println("Sua força é: " + NewPessoa.getForca());
+    }
+
     public static void main(String[] args) {
         Cachorro();
         Gato();
+        Man();
     }
 }
