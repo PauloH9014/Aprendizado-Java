@@ -1,6 +1,9 @@
 package Polymorphism.ExampleTwo;
 
+import java.util.Scanner;
+
 public class Empresa{
+    Scanner sc = new Scanner(System.in);
     private double money;
     private String category;
 

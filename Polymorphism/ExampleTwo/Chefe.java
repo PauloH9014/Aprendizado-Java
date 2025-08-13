@@ -13,6 +13,14 @@ public class Chefe extends Empresa{
     }
 
     public void setAreaEspecializacao(String NewareaEspecializacao){
+
         this.areaEspecializacao = NewareaEspecializacao;
+    }
+    public void Apresentar(){
+        System.out.println("Qual seu cargo?");
+        this.setCategory(sc.nextLine());
+
+        System.out.println("Qual seu salario");
+        this.setMoney(sc.nextDouble());
     }
 }

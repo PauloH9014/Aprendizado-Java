@@ -50,21 +50,22 @@ public class Main {
     }
 
     static void Boss(){
-        Chefe NewBoss = new Chefe(4.3993,"Chefe", "Engenheiro Civil");
-        System.out.println("=============================================");
-        System.out.println("Seu cargo é: " + NewBoss.getCategory());
-        System.out.println("Sua especialização é: " + NewBoss.getAreaEspecializacao());
-        System.out.println("Seu salario é: " + NewBoss.getMoney());
+        Chefe NewBoss = new Chefe(0.0,"", "");
         System.out.println("==============================================");
+        NewBoss.Apresentar();
+        System.out.println("Seu cargo é" + NewBoss.getCategory());
+        System.out.println("Sua especialização é: " + NewBoss.getAreaEspecializacao());
+        System.out.println("Salario informado: " +  NewBoss.getMoney());
+        System.out.println("=============================================");
     }
 
     static void Funcionario(){
-        Operador NewOperador = new Operador("Asistente Administrativo",
-                "Reformatar tabelas Google Sheets", 1.678);
+        Operador NewOperador = new Operador("", "", 0);
 
         System.out.println("=============================================");
+        NewOperador.soundOperador();
         System.out.println("Seu cargo é: " + NewOperador.getCategory());
-        System.out.println("Tarefa atribuida" + NewOperador.getTarefa());
+        System.out.println("Tarefa atribuida foi: " + NewOperador.getTarefa());
         System.out.println("Seu salario é: " + NewOperador.getMoney());
         System.out.println("==============================================");
     }

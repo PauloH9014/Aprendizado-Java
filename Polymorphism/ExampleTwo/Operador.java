@@ -9,10 +9,20 @@ public class Operador extends Empresa{
     }
 
     public String getTarefa() {
+
         return this.tarefaSubordinacao;
     }
 
     public void setTarefa(String Newtarefa){
+
         this.tarefaSubordinacao = Newtarefa;
+    }
+
+    public void soundOperador(){
+        System.out.println("Qual seu cargo? ");
+        this.setCategory(sc.nextLine());
+
+        System.out.println("Qual seu salario? ");
+        this.setMoney(sc.nextDouble());
     }
 }
