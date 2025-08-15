@@ -1,6 +1,9 @@
 package Polymorphism.ExampleOne;
 
+import java.util.Scanner;
+
 public class Pessoa {
+    Scanner sc = new Scanner(System.in);
     private String eyes;
     private String hair;
 

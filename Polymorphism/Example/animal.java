@@ -1,6 +1,9 @@
 package Polymorphism.Example;
 
+import java.util.Scanner;
+
 public class animal {
+    Scanner sc = new Scanner(System.in);
         private String raca;
 
         public animal(String raca){

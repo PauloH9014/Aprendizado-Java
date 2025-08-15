@@ -20,6 +20,9 @@ public class Chefe extends Empresa{
         System.out.println("Qual seu cargo?");
         this.setCategory(sc.nextLine());
 
+        System.out.println("Informe sua especialização: ");
+        this.setAreaEspecializacao(sc.nextLine());
+
         System.out.println("Qual seu salario");
         this.setMoney(sc.nextDouble());
     }

@@ -15,4 +15,15 @@ public class Homem extends Pessoa{
     public void setForca(String Newforca){
         this.forca = Newforca;
     }
+
+    public void soundMan(){
+        System.out.println("qual a cor do seu cabelo: ");
+        this.setHair(sc.nextLine());
+
+        System.out.println("qual a cor dos seus olhos: ");
+        this.setEyes(sc.nextLine());
+
+        System.out.println("informe porcentagem da forca: ");
+        this.setForca(sc.nextLine());
+    }
 }

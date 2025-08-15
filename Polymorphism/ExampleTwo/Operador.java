@@ -22,6 +22,9 @@ public class Operador extends Empresa{
         System.out.println("Qual seu cargo? ");
         this.setCategory(sc.nextLine());
 
+        System.out.println("Informe a sua tarefa atribuida: ");
+        this.setTarefa(sc.nextLine());
+
         System.out.println("Qual seu salario? ");
         this.setMoney(sc.nextDouble());
     }
