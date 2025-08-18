@@ -19,7 +19,8 @@ public  class Cat extends animal{
         System.out.println("Informe a raça do seu cat: ");
         this.setRaca(sc.nextLine());
 
-        System.out.println("Informe o nome do seu cat: ");
-        this.setAge(sc.nextInt());
+//        Integer.parseInt(sc.nextLine() faz o valor em formato em String, depois muda para um int or double or float etc...
+        System.out.println("Informe a idade do seu cat: ");
+        this.setAge(Integer.parseInt(sc.nextLine()));
     }
 }

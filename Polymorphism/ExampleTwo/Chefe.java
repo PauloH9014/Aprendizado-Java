@@ -9,7 +9,7 @@ public class Chefe extends Empresa{
     }
 
     public String getAreaEspecializacao(){
-        return areaEspecializacao;
+        return this.areaEspecializacao;
     }
 
     public void setAreaEspecializacao(String NewareaEspecializacao){
