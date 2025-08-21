@@ -11,7 +11,7 @@ public class exampleOne {
 
         public int getNumber(){
             return this.sumNumber;
-        };
+        }
 
         public void setNumber(int NewsumNumber){
             this.sumNumber = NewsumNumber;
