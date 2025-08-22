@@ -16,4 +16,27 @@ public class Professor {
     public void setDisciplina(String newDisciplina){
         this.disciplina = newDisciplina;
     }
+
+    public class Pos{
+        Scanner sc = new Scanner(System.in);
+        private String especializacaoValue;
+
+        public Pos(String especializacaoValue){
+            this.especializacaoValue = especializacaoValue;
+        }
+        public String getEspecializacaoValue(){
+            return this.especializacaoValue;
+        }
+        public void setEspecializacaoValue(String newEspecializacaoValue){
+            this.especializacaoValue = newEspecializacaoValue;
+        }
+
+        public String Profissao(){
+            System.out.println("Informe a sua especialização: ");
+            this.setEspecializacaoValue(sc.next());
+
+            return "";
+        }
+
+    }
 }

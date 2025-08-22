@@ -6,7 +6,7 @@
         private double notas;
         private double media;
 
-        public Aluno(int notas, int media) {
+        public Aluno(double notas, double media) {
             this.notas = notas;
             this.media = media;
         }
@@ -36,8 +36,15 @@
                     sumValue += getNotas()/3;
                 }
                 setNotas(sumValue);
-
                 setMedia(sumValue/3);
+
+                if(sumValue >= 7){
+                    System.out.println("O aluno foi aprovado");
+                } else if (sumValue > 5 && sumValue <= 6) {
+                    System.out.println("O aluno precisa fazer exame final");
+                }else{
+                    System.out.println("Aluno reprovado");
+                }
 
                 return (int) sumValue;
             }
