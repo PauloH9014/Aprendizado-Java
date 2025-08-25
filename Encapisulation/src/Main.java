@@ -17,8 +17,8 @@ public class Main {
 
 //   nao esta retornando os valores
     static void UserAge(){
-        exampleTwo NewAge = new exampleTwo();
-//      NewAge.setIdade(idade);
+        exampleTwo NewAge = new exampleTwo(18);
+      NewAge.setIdade(NewAge.getIdade());
 
         System.out.println(NewAge.getIdade());
     }
