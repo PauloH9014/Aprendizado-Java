@@ -37,7 +37,9 @@ abstract class exampleAnimals {
     }
     public void setSomaValue(int newSomaValue) {
         this.somaValue = newSomaValue;
+        this.somaValue = this.oneValue + this.twoValue;
     }
+
 
     @Override
     public void Number() {
