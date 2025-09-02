@@ -3,8 +3,6 @@ package ExampleTwo;
 import java.util.Scanner;
 
 abstract class ExamplePerson{
-    private String nome;
-
     public abstract void userValue();
 
     public void User(){
@@ -58,6 +56,7 @@ abstract class ExamplePerson{
         setSexo(sc.next());
     }
 
+    @Override
     public String toString(){
         return "Prazer: " + getNome() + "\n Sua idade " + getIdade() + "\n Seu sexo " + getSexo();
     }
