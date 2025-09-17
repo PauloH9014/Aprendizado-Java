@@ -29,19 +29,19 @@ public class Dog implements exampleOne {
     
     @Override
     public void animalsSound() {
-        System.out.println("Informe o name do animal: ");
+        System.out.println("Informe o name do seu dog: ");
         setName(sc.next());
 
     }
 
     @Override
     public void animalsRun() {
-        System.out.println("Informe onde encontrou o animal: ");
+        System.out.println("Informe onde encontrou ele: ");
         setLocalAnimal(sc.next());
     }
 
     @Override
     public String toString() {
-        return "a especie do animal é " + getName() + " o lugar que foi encontrado: " + getLocalAnimal();
+        return "O nome do seu dog é " + getName() + " o lugar que foi encontrado: " + getLocalAnimal();
     }
 }
