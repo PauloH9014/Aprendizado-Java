@@ -1,5 +1,7 @@
 import ExampleOne.Cat;
 import ExampleOne.Dog;
+import ExampleTree.Usuario;
+import ExampleTwo.Aluno;
 
 public class Main {
     public void Dogs(){
@@ -18,12 +20,32 @@ public class Main {
         System.out.println(newCat);
     }
 
+    public void Alunos(){
+        Aluno newAluno = new Aluno(0.0, "");
+        newAluno.alunoSound();
+        newAluno.alunoRun();
+
+        System.out.println(newAluno);
+    }
+
+    public void User(){
+        Usuario newUser = new Usuario("", 0);
+        newUser.nameUSer();
+        newUser.ageUser();
+
+        System.out.println(newUser);
+    }
+
      public static void main(String[] args) {
      Main newExecute = new Main();
 
+// aqui é uma classe animal
      newExecute.Dogs();
      newExecute.Cats();
+
+// aqui é uma classe aluno
+     newExecute.Alunos();
+     //    aqui é uma classe de usuario
+    newExecute.User();
     }
 }
-
-// arrumar para chamar o methods.
