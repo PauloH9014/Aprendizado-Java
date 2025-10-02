@@ -34,7 +34,6 @@ public class UserArrayList implements InterfaceArrayList{
             lisUser = sc.next();
 
             nameUsers.add(lisUser);
-            setName(lisUser);
         }
             System.out.println("Seu nome foi listado " + nameUsers);
             nameUsers.remove(2);
