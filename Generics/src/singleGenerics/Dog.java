@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+// utilization of class witch interface witch generics list
 public class Dog<T> implements Animals<T>{
     Scanner sc = new Scanner(System.in);
     private List<T> especies = new ArrayList<>();
@@ -15,11 +16,12 @@ public class Dog<T> implements Animals<T>{
         especies.add(especie);
     }
 
+//    aqui is for list form generics of variaveis.
     public List<T> getEspecieAnimal() {
         return especies;
     }
 
-//    refazer a logica para chamar a especie;
+//    methods utilization of list generic
     @Override
     public void SoundAnimals(Object especie) {
         Dog <T> newAnimal = new Dog<>();
