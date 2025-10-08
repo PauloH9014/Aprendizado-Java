@@ -36,9 +36,11 @@ public class Aluno<T> implements Alunos<T>{
             }else{
                 System.out.println("Reprovado! Sua media foi" + mediaAluno);
             }
+//            aqui é uma condição para informar que a entrada dos dados foi passada de forma invalida
         }catch(Exception e){
             System.out.println("Por favor, informe notas com valores validos");
             sc.next();
+//            aqui é a consdição para informar que a entrada foi passada de forma valida
         }finally {
             System.out.println("\nPrograma de media finalizado.");
             sc.close();
