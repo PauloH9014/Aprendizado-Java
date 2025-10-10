@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambdas/Lambdas.iml" filepath="$PROJECT_DIR$/Lambdas/Lambdas.iml" />
       <module fileurl="file://$PROJECT_DIR$/PH.iml" filepath="$PROJECT_DIR$/PH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
       <module fileurl="file://$PROJECT_DIR$/innerClass/innerClass.iml" filepath="$PROJECT_DIR$/innerClass/innerClass.iml" />
     </modules>
   </component>
